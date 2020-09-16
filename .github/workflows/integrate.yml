@@ -16,3 +16,5 @@ jobs:
         with:
           php-version: '7.4'
           tools: php-cs-fixer
+
+      - run: php-cs-fixer
