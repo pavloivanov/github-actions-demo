@@ -1,3 +1,7 @@
 <?php
 
-echo 'Hello world';
+if (1 === 1) {
+
+    echo 'Hello World';
+
+}
