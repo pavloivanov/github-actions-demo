@@ -1,0 +1,10 @@
+name: PHP Continuous Integration
+
+on:
+  pull_request:
+    branches: [ master ]
+
+  jobs:
+    test_pull_request:
+      runs-on: ubuntu-latest
+      steps: actions/checkout@v2
